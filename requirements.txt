@@ -1,0 +1,10 @@
+streamlit
+yt-dlp
+pydub
+openai
+python-dotenv
+ffmpeg-python
+langchain
+langchain_community
+langchain-groq
+langchain_core
