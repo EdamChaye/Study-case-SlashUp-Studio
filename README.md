@@ -50,6 +50,7 @@ This project addresses the challenge of creating an automated learning assessmen
 2. Install dependencies:
   ```bash
   pip install -r requirements.txt
+  ```
 3. Run the application : 
   streamlit run app.py
 
