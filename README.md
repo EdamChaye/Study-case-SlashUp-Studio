@@ -61,7 +61,7 @@ This project addresses the challenge of creating an automated learning assessmen
 - Groq API is totally free and it provides the fastest inference in LLMs.
 1. Navigate to https://groq.com/
 2. Go to 'Developers' section and then Click at 'FREE API KEY' and then create an api key
-3. Add the 2 api keys created to .env file
+3. copy paste  the 2 api keys created to .env file
 
 ### ffmpeg configuration
 1. Install ffmpeg from https://www.ffmpeg.org/download.html
