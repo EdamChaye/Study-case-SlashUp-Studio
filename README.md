@@ -19,7 +19,7 @@ This project addresses the challenge of creating an automated learning assessmen
 ## Project Workflow
 
 1. **Video Input**: 
-  - User provides a YouTube video URL
+  - User provides a YouTube video URL (I used this video https://www.youtube.com/watch?v=x7X9w_GIm1s&t=4s)
   - Audio is downloaded and extracted
 
 2. **Transcription**:
