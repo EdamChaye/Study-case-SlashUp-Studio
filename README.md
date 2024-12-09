@@ -35,7 +35,7 @@ This project addresses the challenge of creating an automated learning assessmen
 
 ### Key Components
 - **Transcription**: Groq Whisper API for audio-to-text conversion
-- **Natural Language Processing**: Langchain with Groq's LLaMA 3.1 70B model (Using LCEL (langchain expression language), prompt engineering + llm +StrOutputParser to to garantee a good structured output from the model)
+- **Natural Language Processing**: Langchain with Groq's LLaMA 3.1 70B model (Using LCEL (langchain expression language), prompt engineering + LLM +StrOutputParser to garantee a good structured output from the model)
 - **Web Interface**: Streamlit for user interaction
 
 ## Installation
@@ -52,8 +52,10 @@ This project addresses the challenge of creating an automated learning assessmen
   pip install -r requirements.txt
   ```
 3. Run the application : 
+  ```bash
   streamlit run app.py
-
+  ```
+  
 ### How to get GROQ-API
 
 - Groq API is totally free and it provides the fastest inference in LLMs.
@@ -75,12 +77,15 @@ This project addresses the challenge of creating an automated learning assessmen
 3. 10-question multiple-choice quiz creation
 4. Automated quiz grading with detailed justifications
 
-## Project structure 
+## Project Structure
 
-ETUDE DE CAS/
+```
+groq-whisper-fast-transcription-app/
 │
-├── .env                # Contains the Groq API keys
-├── app.py              # Main Python file for the Streamlit app
+├── .env                # Contains the Groq API key
+├── transcript.py       # Main Python file for the Streamlit app
 ├── requirements.txt    # Python dependencies
 ├── python_env.yaml     # Python dependencies
 └── README.md           # This README file
+```
+.
