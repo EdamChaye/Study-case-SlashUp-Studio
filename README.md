@@ -35,7 +35,7 @@ This project addresses the challenge of creating an automated learning assessmen
 
 ### Key Components
 - **Transcription**: Groq Whisper API for audio-to-text conversion
-- **Natural Language Processing**: Langchain with Groq's LLaMA 3.1 70B model (Using LCEL (langchain expression language), prompt engineering + LLM +StrOutputParser to garantee a good structured output from the model)
+- **Natural Language Processing**: Langchain with Groq's LLaMA 3.1 70B model (Using LCEL (langchain expression language), prompt engineering + LLM +StrOutputParser to guarantee a good structured output from the model)
 - **Web Interface**: Streamlit for user interaction
 
 ## Installation
